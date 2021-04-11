@@ -99,7 +99,7 @@ author:
   name             : "꿍꿍이"
   avatar           : "/assets/images/poto.PNG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "꾸준히 끊임없이"
-  location         : "고양시 덕양구"
+  location         : "대한민국"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

@@ -2,8 +2,6 @@
 main:
   - title: "About"
     url: /about/
-  - title: "test"
-    url: /test_1/
   - title: "POST"
     url: /test_2/
   # - title: "Quick-Start Guide"

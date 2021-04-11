@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "짱짱이 블로그14"
+title                    : "짱짱이의 개발일지"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "짱짱이"
@@ -25,7 +25,7 @@ url                      : "https://stg0123.github.io" # the base hostname & pro
 baseurl                  : / # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -98,7 +98,6 @@ author:
   avatar           : "/assets/images/poto.PNG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "꾸준히 끊임없이"
   location         : "seoul"
-  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

@@ -23,12 +23,13 @@ name                     : "짱짱이"
 description              : "꾸준히 끊임없이"
 url                      : "https://stg0123.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : / # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+repository               : "stg0123/stg0123.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : "/assets/images/title.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
+
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
@@ -97,7 +98,7 @@ author:
   name             : "짱짱이"
   avatar           : "/assets/images/poto.PNG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "꾸준히 끊임없이"
-  location         : "seoul"
+  location         : "고양시 덕양구"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

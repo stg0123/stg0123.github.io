@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "짱짱이 블로그7"
+title                    : "짱짱이 블로그8"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "짱짱이"
@@ -102,7 +102,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:sontg123@naver.com"
+      url: mailto:sontg123@naver.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"

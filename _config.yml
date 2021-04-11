@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "꿍꿍이의 개발일지12"
+title                    : "꿍꿍이의 개발일지"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "꿍꿍이"
@@ -88,9 +88,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google" # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : G-8NF2GYX1HR
+    tracking_id          :
+    stream_id            :  "G-8NF2GYX1HR"
     anonymize_ip         : # true, false (default)
 
 

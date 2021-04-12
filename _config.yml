@@ -289,4 +289,4 @@ defaults:
       author_profile: true
       sidebar_category: true
   
-category_dir: category/
+category_dir: categories/

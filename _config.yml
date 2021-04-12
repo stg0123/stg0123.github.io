@@ -213,9 +213,9 @@ timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zo
 
 
 # Plugins (previously gems:)
-# plugins:
+plugins:
+  - jekyll-sitemap
 #   - jekyll-paginate
-#   - jekyll-sitemap
 #   - jekyll-gist
 #   - jekyll-feed
 #   - jekyll-include-cache

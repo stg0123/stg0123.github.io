@@ -344,3 +344,53 @@
   }
 }
 
+// custom
+.sidebar .sidebar-category {
+  display: none;
+}
+
+.sidebar.sticky .sidebar-category {
+  display: block;
+}
+
+.sidebar-category {
+  padding-right: 20%;
+
+  .content-ul {
+    padding-left: 10px;
+    margin-bottom: 20px;
+
+    li {
+      border-bottom: 1px solid lightgray;
+      padding: 4px;
+
+      &:hover {
+        background-color: #dbdfee;
+      }
+  
+      .badge {
+        margin-top: 3px;
+        font-size: 0.8em;
+        padding: 0 8px;
+        float: right;
+        color: #fff;
+        background-color: #bbb;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .tags-cloud {
+    a {
+      word-break: keep-all;
+      padding: 0 5px;
+      border-radius: 4px;
+      text-decoration: none;
+      
+      &:hover {
+        background-color: #f0e7ce;
+      }
+    }
+
+  }
+}

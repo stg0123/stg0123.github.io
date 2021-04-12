@@ -98,7 +98,7 @@ analytics:
 # Site Author
 author:
   name             : "꿍꿍이"
-  avatar           : # "/assets/images/poto.PNG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/poto.PNG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "꾸준히 끊임없이"
   location         : "대한민국"
   links:
@@ -290,3 +290,4 @@ defaults:
       sidebar_category: true
   
 category_dir: categories/
+asset_url: /assets

@@ -1,6 +1,20 @@
 {% if page.author_profile or layout.author_profile or page.sidebar %}
   <div class="sidebar sticky">
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
+    <div>
+      <div class="sidebar-nav-item">Category</div>
+      <nav class="content-ul">
+        {% for category in site.categories %}
+        <a href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}"
+          class="sidebar-nav-item pl-3rem">
+                              <span class="name">
+                                  {{ category | first }}
+                              </span>
+          <span class="badge">{{ category | last | size }}</span>
+        </a>
+        {% endfor %}
+      </nav>
+    </div>
   {% if page.sidebar %}
     {% for s in page.sidebar %}
       {% if s.image %}
@@ -15,20 +29,6 @@
       {% include nav_list nav=page.sidebar.nav %}
     {% endif %}
   {% endif %}
-  </div>
-  <div>
-    <div class="sidebar-nav-item">Category</div>
-    <nav class="content-ul">
-      {% for category in site.categories %}
-      <a href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}"
-        class="sidebar-nav-item pl-3rem">
-                            <span class="name">
-                                {{ category | first }}
-                            </span>
-        <span class="badge">{{ category | last | size }}</span>
-      </a>
-      {% endfor %}
-    </nav>
   </div>
 {% endif %}
 

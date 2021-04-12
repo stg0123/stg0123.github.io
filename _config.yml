@@ -286,3 +286,5 @@ defaults:
     values:
       layout: single
       author_profile: true
+  
+category_dir: category/

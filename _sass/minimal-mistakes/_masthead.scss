@@ -15,7 +15,6 @@
 
   height: 70px;
   width: 100%;
-  background-color : lightblue;
 
   &__inner-wrap {
     @include clearfix;
@@ -43,6 +42,8 @@
       text-decoration: none;
     }
   }
+  
+  background-color : lightblue;
 }
 
 .site-logo img {

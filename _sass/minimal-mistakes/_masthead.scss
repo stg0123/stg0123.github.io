@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .masthead {
-  position: fixed;
+  position: relative;
   top: 0;
   
   border-bottom: 1px solid $border-color;
@@ -13,9 +13,9 @@
   animation-delay: 0.15s;
   z-index: 20;
 
-  height: 70px;
-  width: 100%;
-  background: white;
+  // height: 70px;
+  // width: 100%;
+  // background: white;
 
   &__inner-wrap {
     @include clearfix;

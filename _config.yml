@@ -23,7 +23,7 @@ name                     : "꿍꿍이"
 description              : "꾸준히 끊임없이"
 url                      : "https://stg0123.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "stg0123/stg0123.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "stg0123/blog-comments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/title.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -31,7 +31,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 words_per_minute         : 200
 
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : ggungggungi # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -42,8 +42,8 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme                : "github-light" # "github-light" (default), "github-dark"
+    issue_term           : "og:title" # "pathname" (default)
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"

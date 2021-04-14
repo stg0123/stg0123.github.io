@@ -5,7 +5,7 @@ main:
   - title: "Post"
     url: /test_2/
   - title: "Category"
-    url: /my_categories/
+    url: /categories/
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "Sample Collections"

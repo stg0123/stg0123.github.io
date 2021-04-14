@@ -15,7 +15,7 @@
 
   height: 70px;
   width: 100%;
-
+  background-color: white;
   &__inner-wrap {
     @include clearfix;
     margin-left: auto;
@@ -95,8 +95,4 @@
     padding-right: 2em;
     font-weight: 700;
   }
-}
-
-.masthead {
-  background-color: lightblue;
 }

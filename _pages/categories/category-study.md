@@ -1,5 +1,5 @@
 ---
-title: "개인공부저장"
+title: "개인공부"
 layout: archive
 permalink: categories/study
 author_profile: true

@@ -41,7 +41,7 @@
         <span class="nav__sub-title">Review</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "review %}
+                    {% if category[0] == "review" %}
                         <li><a href="/categories/review" class="">후기 및 이야기 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}

@@ -52,7 +52,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "soma" %}
-                        <li><a href="/categories/soma" class="">Software Maestro ({{category[1].size}})</a></li>
+                        <li><a href="/categories/soma" class="">소프트웨어 마에스트로 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

@@ -275,7 +275,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      sidebar_category: true
+      sidebar_main: true
+      # sidebar_category: true
       read_time: false
       comments: # true
       share: true
@@ -287,7 +288,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      sidebar_category: true
+      sidebar_main: true
+      # sidebar_category: true
   
 category_dir: categories/
 asset_url: /assets

@@ -16,7 +16,8 @@
     {% endif %}
   {% endif %}
   
-  {% if page.sidebar_category %}
+  <!-- 이전 사이드바
+    {% if page.sidebar_category %}
     <div class="sidebar-category">
       <div class="sidebar-nav-item">Category</div>
       <nav class="content-ul">
@@ -34,7 +35,11 @@
         </ul>
       </nav>
     </div>
+  {% endif %} -->
+  {% if page.sidebar_main %}
+    {% include nav_list_main %}
   {% endif %}
+
   </div>
 {% endif %}
 

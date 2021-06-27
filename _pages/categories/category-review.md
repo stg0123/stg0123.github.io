@@ -1,5 +1,5 @@
 ---
-title: "이야기"
+title: "후기 및 이야기"
 layout: archive
 permalink: categories/review
 author_profile: true

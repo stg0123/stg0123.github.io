@@ -5,26 +5,18 @@ layout: archive
 {{ content }}
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-
-<p>111111111111111</p>
-
-{% assign posts = site.categories.study %}
+<!-- {% assign posts = site.categories.study %} -->
 <!-- {% if paginator %}
   {% assign posts = paginator.posts %}
 {% else %}
   {% assign posts = site.categories.study %}
   {% assign posts = site.posts %}
 {% endif %} -->
-
-<p>222222222222222222</p>
-
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
   {% for post in posts %}
     {% include archive-single.html type=entries_layout %}
   {% endfor %}
 </div>
-
-<p>3333333333333333333</p>
 
 {% include paginator.html %}

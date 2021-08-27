@@ -367,9 +367,9 @@ author_profile: true
     }
     
     function viewImage(img){
-        W=img1.width;
-        H=img1.height;
-        O="width="+W+",height="+H+",scrollbars=yes";
+        W=img1.width/2;
+        H=img1.height/2;
+        O="width="+W/2+",height="+H/2+",scrollbars=yes";
         imgWin=window.open("","",O);
         imgWin.document.write("<html><head><title>:*:*:*: 이미지상세보기 :*:*:*:*:*:*:</title></head>");
         imgWin.document.write("<body topmargin=0 leftmargin=0>");

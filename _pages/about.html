@@ -178,7 +178,7 @@ author_profile: true
 <div class="mydiv">
     <div class="left" style="margin-top: 1em;">
         <p class="myp">버스왔어요</p>
-        <img class="myimg" src='/assets/images/about/thesis_1.png'alt='thesis' height="100px"/>
+        <img class="myimg" src='/assets/images/about/thesis_1.png'alt='thesis' height="80px"/>
     </div>
     <div class="right">
         <ul>
@@ -186,9 +186,9 @@ author_profile: true
             <li>라즈베리파이(웹캠, 모니터), 머신러닝(Object Detection, OCR), TTS 활용</li> 
             <li>Python 프로그래밍을 통한 실시간 버스번호 감지</li>
             <li>EEECS 학회 논문 승인 및 오프라인 출간 <br>
-                Paper ID : EEECS670<br>
-                Paper Title : A REAL-TIME BUS ARRIVAL NOTIFICATION SYSTEM FOR VISUALLY IMPAIRED USING DEEP LEARNING<br>
-                Authors : Taegyun Son / sontg123@naver.com / Soongsil University<br></li>
+                <span class="myspan">Paper ID</span> : EEECS670<br>
+                <span class="myspan">Paper Title</span> : A REAL-TIME BUS ARRIVAL NOTIFICATION SYSTEM FOR VISUALLY IMPAIRED USING DEEP LEARNING<br>
+                <span class="myspan">Authors</span> : Taegyun Son / sontg123@naver.com / Soongsil University<br></li>
         </ul>
     </div>
 </div>
@@ -228,11 +228,12 @@ author_profile: true
 </div>
 <div class="mydiv">
     <div class="left">
-        <p class="myp">2021 해외논문 title:...</p>
+        <p class="myp">EEECS 논문 등록</p>
     </div>
     <div class="right">
         <ul>
-            <li>취득 날짜, 자격번호</li>
+            <li>Paper ID : EEECS670<br>
+                Paper Title : A REAL-TIME BUS ARRIVAL NOTIFICATION SYSTEM FOR VISUALLY IMPAIRED USING DEEP LEARNING</li>
         </ul>
     </div>
 </div>
@@ -330,6 +331,16 @@ author_profile: true
 </div>
 <div class="mydiv">
     <div class="left">
+        <p class="myp">TOEIC Speaking lv5</p>
+    </div>
+    <div class="right">
+        <ul>
+            <li>취득 날짜, 자격번호, 인증 기관</li>
+        </ul>
+    </div>
+</div>
+<div class="mydiv">
+    <div class="left">
         <p class="myp">운전면허 1종 보통</p>
     </div>
     <div class="right">
@@ -339,9 +350,9 @@ author_profile: true
     </div>
 </div>
 
-<script type="text/javascript">
+<script>
     var img = document.getElementsByClassName("myimg");
     for (var x = 0; x < img.length; x++) 
-        img.onclick=function() {window.open(this.src)}; 
+        img.item(x).onclick=function() {window.open(this.src)}; 
 </script>
     

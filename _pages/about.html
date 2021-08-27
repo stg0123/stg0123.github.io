@@ -178,7 +178,7 @@ author_profile: true
 <div class="mydiv">
     <div class="left" style="margin-top: 1em;">
         <p class="myp">버스왔어요</p>
-        <img src='/assets/images/about/thesis_1.png' title="클릭하시면 원본크기로 보실 수 있습니다." alt="thesis" width="150px" style="cursor: pointer;" onclick="doImgPop('/assets/images/about/thesis_1.png')"/>
+        <img src='/assets/images/about/thesis_1.png' title="클릭하시면 원본크기로 보실 수 있습니다." alt="thesis" width="250px" style="cursor: pointer;" onclick="doImgPop('/assets/images/about/thesis_1.png')"/>
     </div>
     <div class="right">
         <ul>
@@ -367,8 +367,8 @@ author_profile: true
     }
     
     function viewImage(img){
-        W=img1.width/2;
-        H=img1.height/2;
+        W=img1.width;
+        H=img1.height;
         O="width="+W+",height="+H+",scrollbars=yes";
         imgWin=window.open("","",O);
         imgWin.document.write("<html><head><title>:*:*:*: 이미지상세보기 :*:*:*:*:*:*:</title></head>");

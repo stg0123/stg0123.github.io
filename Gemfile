@@ -1,4 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll","~> 3.5"
+
+# gem "jekyll"
+gem 'jekyll', '~> 4.2', '>= 4.2.1'
 gem "minimal-mistakes-jekyll"
